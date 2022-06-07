@@ -8,8 +8,13 @@ $rutaImagenFondoLogo:"../imagenes/fondoLogo1.jpg"; /*imagen de fondo de logo */
     border: solid 5px;
     border-color: rgb(15, 15, 15);
     text-transform: uppercase;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:rgb(241, 240, 233);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+   color:rgb(241, 240, 233);
+   -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 .navbar-nav {
     a:hover{

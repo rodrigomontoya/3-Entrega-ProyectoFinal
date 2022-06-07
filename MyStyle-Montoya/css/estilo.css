@@ -27,11 +27,15 @@
   border: solid 5px;
   border-color: #0f0f0f;
   text-transform: uppercase;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   color: #f1f0e9;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 15, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
+/* line 20, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
 .navbar-nav a:hover {
   border: solid #6d0a0a;
   border-radius: 5px;
@@ -39,7 +43,7 @@
   transform: scale(1.2);
 }
 
-/* line 23, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
+/* line 28, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
 .logo {
   border: solid 7px;
   border-radius: 5px;
@@ -51,7 +55,7 @@
   width: 13vw;
 }
 
-/* line 32, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
+/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
 .logo:hover {
   transform: rotate(360deg);
   transition: 2s;
