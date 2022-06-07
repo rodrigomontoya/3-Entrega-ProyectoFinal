@@ -31,11 +31,14 @@
     }
 }
 
-
+.btn-secondary {
+    background-color: rgb(7, 6, 6) !important;
+    &:hover{
+        background-color:rgb(177, 4, 4) !important;
+    }
+    
+}
 .fondoRelleno:hover{
     background-color: black !important;
     color:white !important;
 }
-
-
-

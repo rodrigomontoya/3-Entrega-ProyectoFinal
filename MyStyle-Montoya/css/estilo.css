@@ -310,7 +310,17 @@
   transition: 4s;
 }
 
-/* line 35, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
+/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
+.btn-secondary {
+  background-color: #070606 !important;
+}
+
+/* line 36, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
+.btn-secondary:hover {
+  background-color: #b10404 !important;
+}
+
+/* line 41, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
 .fondoRelleno:hover {
   background-color: black !important;
   color: white !important;
