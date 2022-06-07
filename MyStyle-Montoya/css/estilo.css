@@ -37,13 +37,14 @@
 
 /* line 20, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
 .navbar-nav a:hover {
-  border: solid #6d0a0a;
+  border: solid #6d0a0a !important;
   border-radius: 5px;
   transition: 1.5s;
   transform: scale(1.2);
+  color: #0f0e0e !important;
 }
 
-/* line 28, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
+/* line 29, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
 .logo {
   border: solid 7px;
   border-radius: 5px;
@@ -55,10 +56,11 @@
   width: 13vw;
 }
 
-/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_header.scss */
 .logo:hover {
   transform: rotate(360deg);
   transition: 2s;
+  border-color: #8b0606 !important;
 }
 
 /* line 2, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
@@ -99,6 +101,7 @@
 /* line 35, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 #videoIntroduccion {
   margin-top: 1%;
+  padding-bottom: 0.5%;
 }
 
 /* line 1, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Entregas Proyecto Final/3° EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
